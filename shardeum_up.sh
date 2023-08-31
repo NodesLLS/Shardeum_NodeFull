@@ -1,9 +1,9 @@
 #!/bin/bash
 curl -s https://raw.githubusercontent.com/NodesLLS/Node_tools/main/logo.sh | bash
-#curl -s https://raw.githubusercontent.com/NodesLLS/Node_tools/main/preinstall.sh | bash
+curl -s https://raw.githubusercontent.com/NodesLLS/Node_tools/main/preinstall.sh | bash
 curl -s https://raw.githubusercontent.com/NodesLLS/Node_tools/main/docker.sh | bash
-curl -O https://gitlab.com/shardeum/validator/dashboard/-/raw/main/installer.sh && chmod +x installer.sh && ./installer.sh
-sleep 60
+curl -O https://gitlab.com/shardeum/validator/dashboard/-/raw/main/installer.sh && chmod +x installer.sh &&  bash installer.sh
+wget https://raw.githubusercontent.com/NodesLLS/Shardeum_NodeFull/main/healthcheck.sh
 
 ###################
 
