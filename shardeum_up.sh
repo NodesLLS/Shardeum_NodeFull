@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ~
 curl -s https://raw.githubusercontent.com/NodesLLS/Node_tools/main/logo.sh | bash
 curl -s https://raw.githubusercontent.com/NodesLLS/Node_tools/main/preinstall.sh | bash
 curl -s https://raw.githubusercontent.com/NodesLLS/Node_tools/main/docker.sh | bash
